@@ -19,7 +19,11 @@
 
     <!-- Demo弹窗需要 -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
+    <!--这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- 用于访问wifi网络信息-->
     <application
         android:name="com.baidu.flutter_bmfmap_example.MyApplication"
         android:label="flutter_bmfmap_example"
